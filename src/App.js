@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Card_Group from './components/Card_Group/Card_Group';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
       <div className="spinner-border text-danger" role="status">
         <span className="visually-hidden">Loading...</span>
       </div>
+      
+        <Card_Group></Card_Group>
     </div>
   );
 }
